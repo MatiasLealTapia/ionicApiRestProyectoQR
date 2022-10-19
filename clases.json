@@ -1,45 +1,47 @@
-[
-    {
-        "id":"0",
-        "nomClase":"",
-        "siglaClase":"",
-        "escuela":"",
-        "secciones":[
+{
+    "clases":[
         {
-            "seccion":"",
-            "profesor":"",
-            "horario":[
+            "id":"0",
+            "nomClase":"",
+            "siglaClase":"",
+            "escuela":"",
+            "secciones":[
             {
-                "dia":"",
-                "horaInicio":"",
-                "horaTermino":""
+                "seccion":"",
+                "profesor":"",
+                "horario":[
+                {
+                    "dia":"",
+                    "horaInicio":"",
+                    "horaTermino":""
+                }
+                ]
+            }
+            ]
+        },
+        {
+            "id":"1",
+            "nomClase":"Arquitectura",
+            "siglaClase":"ASY4131",
+            "escuela":"informatica y telecomunicaciones",
+            "secciones":[
+            {
+                "seccion":"010D",
+                "profesor":"MARCELA ALEJANDRA VERA OCHOA",
+                "horario":[
+                {
+                    "dia":"Lunes",
+                    "horaInicio":"17:01",
+                    "horaTermino":"19:00"
+                },
+                {
+                    "dia":"Viernes",
+                    "horaInicio":"09:31",
+                    "horaTermino":"10:50"
+                }
+                ]
             }
             ]
         }
-        ]
-    },
-    {
-        "id":"1",
-        "nomClase":"Arquitectura",
-        "siglaClase":"ASY4131",
-        "escuela":"informatica y telecomunicaciones",
-        "secciones":[
-        {
-            "seccion":"010D",
-            "profesor":"MARCELA ALEJANDRA VERA OCHOA",
-            "horario":[
-            {
-                "dia":"Lunes",
-                "horaInicio":"17:01",
-                "horaTermino":"19:00"
-            },
-            {
-                "dia":"Viernes",
-                "horaInicio":"09:31",
-                "horaTermino":"10:50"
-            }
-            ]
-        }
-        ]
-    }
-]
+    ]
+}
